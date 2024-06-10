@@ -12,6 +12,7 @@ while (i < 10) {
   text += "<br>The number is " + i;
   i++;
 
+  /*
   j = 0;
   while (j < 5) {
     if (j == 2) {
@@ -26,10 +27,11 @@ while (i < 10) {
     j = j + 0.5;
     console.log("j = " + j);
   }
+*/
 
-  //if (i == 4) {continue;}
+//  if (i == 4) {continue;}
 
-  //if (i == 7) {break;}
+//  if (i == 7) {break;}
 
   console.log("i = " + i);
   console.log(i < 10);
