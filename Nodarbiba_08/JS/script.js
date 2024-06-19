@@ -1,4 +1,5 @@
-console.log(window.opener);
+console.log(window.opener.name);
+
 
 // Create an Object:
 const car = {type:"Fiaaaaaaaaaaaaaaat", model:"500", color:"white"};
