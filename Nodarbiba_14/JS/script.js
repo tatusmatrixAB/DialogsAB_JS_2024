@@ -13,19 +13,19 @@
 var str = document.cookie;
 console.log("cookie vērtība: " + str);
 
-//document.cookie = "username_1=admin_1";
-//document.cookie = "username_2=admin_1";
-//str = document.cookie;
-//console.log("cookie vērtība: "+str);
+document.cookie = "username_1=admin_1; path=/";
+document.cookie = "username_2=admin_1";
+str = document.cookie;
+console.log("cookie vērtība: "+str);
 
-//document.cookie = "username=admin_2";
-//str = document.cookie;
-//console.log("cookie vērtība: "+str);
+document.cookie = "username=admin_2";
+str = document.cookie;
+console.log("cookie vērtība: "+str);
 
-//display("username_1", "administrācija_1", 30);
-//display("username_2", "admin_2");
+display("username_1", "administrācija_1", 30);
+display("username_2", "admin_2");
 
-/*
+
 // https://stackoverflow.com/questions/13154552/how-can-i-set-a-cookie-with-expire-time
 function display(cookie_name, cookie_value, cookie_expire_time_sec) {
   var now = new Date();
@@ -40,4 +40,3 @@ function display(cookie_name, cookie_value, cookie_expire_time_sec) {
   }
   console.log(document.cookie);
 }
-*/
